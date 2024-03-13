@@ -1,0 +1,40 @@
+.MusicAccessoriesContainer {
+  display: flex;
+  width: 95vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vmax;
+}
+.hotAccessoriesCover:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  box-shadow: 5px 5px 20px black;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70vw;
+  align-items: center;
+  justify-content: center;
+  gap: 1vmax;
+}
+
+.Browse {
+  height: 15vmax;
+  width: 18vmax;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 2vmax;
+  gap: 2vmax;
+  color: orangered;
+}
+.Browse:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 20px black;
+}

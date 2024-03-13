@@ -1,0 +1,23 @@
+.videoCard {
+  width: 25vw;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.videoCard p {
+  font-size: 1.4vmax;
+}
+.button {
+  width: 18vh;
+  height: 18vh;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover {
+  background-color: rgba(178, 177, 177, 0.42);
+}

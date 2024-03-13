@@ -1,0 +1,6 @@
+.OfferRow {
+  display: flex;
+  padding: 3vmax 0vmax;
+  justify-content: center;
+  gap: 3vmax;
+}

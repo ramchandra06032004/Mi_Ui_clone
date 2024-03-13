@@ -1,0 +1,16 @@
+.NavOptionCard img {
+  padding: 1vmax;
+}
+.NavOptionCard .name {
+  font-size: 1.1vmax;
+  font-weight: 600;
+}
+.NavOptionCard .price {
+  font-size: 1.2vmax;
+}
+.NavOptionCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

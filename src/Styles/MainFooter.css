@@ -1,0 +1,39 @@
+.FooterContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.FooterElement {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4vmax;
+}
+.Link {
+  color: rgba(255, 255, 255, 0.826);
+}
+
+.support h2 {
+  color: rgba(255, 255, 255, 0.826);
+  font-size: 1.4vmax;
+  font-weight: 600;
+}
+
+.footer {
+  display: grid;
+  background-color: #1c1f21;
+  grid-template-columns: 8fr 2fr;
+  padding: 2vmax;
+}
+.chat {
+  color: rgba(255, 255, 255, 0.826);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vmax;
+}
+.chatNow {
+  width: 60%;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.826);
+  border: 1px solid rgba(255, 255, 255, 0.826);
+  height: 10%;
+}

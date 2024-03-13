@@ -1,0 +1,40 @@
+.mainContainer {
+  display: grid;
+  padding: 2vmax;
+  height: 20vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  background-color: white;
+}
+.heading {
+  font-size: 1.2vmax;
+  font-weight: 600;
+}
+.info {
+  font-size: 1vmax;
+}
+.preFooterElementContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 1.5vmax;
+  transition: all 0.3s ease-in-out;
+}
+.preFooterElementContainer svg {
+  font-size: 3vmax;
+  color: rgba(0, 0, 0, 0.418);
+}
+.preFooterElementContainer:hover {
+  cursor: pointer;
+  color: black;
+  transform: scale(1.1);
+}
+.preFooterElementContainer svg:hover {
+  color: black;
+}
+.preFooterElementContainer .heading:hover {
+  color: black;
+}
+.preFooterElementContainer .info:hover {
+  color: rgb(0, 0, 0);
+}

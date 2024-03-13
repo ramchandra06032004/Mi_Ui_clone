@@ -1,0 +1,40 @@
+.SecondPreFooterMainContainer {
+  display: grid;
+  cursor: pointer;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 15vh;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FirstChild {
+  flex-direction: column;
+}
+.FirstChild .head {
+  font-size: 1.7vmax;
+  font-weight: 600;
+}
+.secondChild {
+  flex-direction: column;
+}
+.secondChild input {
+  width: 80%;
+  height: 5vh;
+  border: 1px solid #0000007b;
+  padding: 0.5vmax;
+}
+.secondChild div {
+  padding: 1.1vmax 0;
+}
+.followIcon {
+  justify-content: space-evenly;
+  font-size: 1.7vmax;
+}
+.followIcon svg {
+  transition: all 0.3s ease-in-out;
+}
+.followIcon svg:hover {
+  transform: scale(1.4);
+}

@@ -1,0 +1,22 @@
+.hotAccCard img {
+  height: 15vmax;
+  width: 18vmax;
+}
+.hotAccCard {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+}
+.hotAccCard p {
+  font-size: 1.1vmax;
+}
+.price {
+  color: orangered;
+  margin: -1vmax 0 0 0;
+}
+.hotAccCard:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  box-shadow: 5px 5px 20px black;
+}

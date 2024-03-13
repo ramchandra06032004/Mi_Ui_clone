@@ -1,0 +1,20 @@
+.PreNavbar {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+}
+.PreNavbar div {
+  padding: 0.9vmax 4vmax;
+}
+.PreNavbar span {
+  color: rgb(129, 129, 129);
+}
+.PreNavbar a {
+  text-decoration: none;
+  color: rgb(191, 185, 185);
+
+  padding: 1vmax;
+}
+.PreNavbar a:hover {
+  color: white;
+}

@@ -1,0 +1,10 @@
+@import url(https://db.onlinewebfonts.com/c/22f912b4b10a938d5f28b7fe79ed7466?family=Camphor+W01+Regular);
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Camphor W01 Regular";
+}
+.body {
+  background-color: red;
+}

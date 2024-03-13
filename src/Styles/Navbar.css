@@ -1,0 +1,51 @@
+.Navbar {
+  background-color: white;
+  padding: 1vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(229, 218, 218);
+}
+.logo {
+  background-color: orangered;
+  width: 58px;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  right: 2vmax;
+}
+.navLinks {
+  padding: 1vmax;
+  text-decoration: none;
+  color: rgb(40, 39, 39);
+  font-size: 1.1vmax;
+  font-weight: 600;
+}
+.input input {
+  outline: none;
+  width: 15vmax;
+  border-bottom: 1px solid rgb(229, 218, 218);
+
+  border: none;
+  border-bottom: 1px solid rgb(229, 218, 218);
+  font-size: 1.1vmax;
+}
+.input {
+  position: relative;
+  left: 10vmax;
+}
+.input i {
+  margin-left: 20px;
+  color: rgb(40, 39, 39);
+}
+.navLinks:hover {
+  color: orangered;
+  text-decoration: none;
+}
+#logoImage {
+  transition: transform 0.3s ease-in-out;
+}
+#logoImage:hover {
+  transform: translateX(-54px);
+}

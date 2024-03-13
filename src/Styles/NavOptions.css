@@ -1,0 +1,5 @@
+.navOptionContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5vmax;
+}

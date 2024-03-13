@@ -1,0 +1,16 @@
+.BannerContaiter {
+  padding: 2vmax 0;
+}
+.caption {
+  cursor: pointer;
+}
+.caption p {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+.caption .discription {
+  font-size: 1.4vmax;
+}
+.caption .source {
+  font-size: 1.4vmax;
+}
