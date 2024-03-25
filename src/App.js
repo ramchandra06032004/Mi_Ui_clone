@@ -17,6 +17,7 @@ import PreFooter from "./Components/PreFooter.jsx";
 import SecondPreFooter from "./Components/SecondPreFooter.jsx";
 import MainFooter from "./Components/MainFooter.jsx";
 import NavOptions from "./Components/NavOptions.jsx";
+import SubFooter from "./Components/SubFooter.jsx";
 
 const start = data.banner.start;
 const offer = data.offer;
@@ -98,6 +99,7 @@ function App() {
       <PreFooter />
       <SecondPreFooter />
       <MainFooter data={data.footer} />
+      <SubFooter />
     </Router>
   );
 }

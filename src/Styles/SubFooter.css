@@ -1,0 +1,11 @@
+.subFooter {
+  background-color: #1c1f21;
+  color: white;
+  height: 7vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+span {
+  width: 0.5vw;
+}
